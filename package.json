@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Node.js boilerplate package",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "npx jest"
   },
   "repository": {
-    "type": "git",
     "url": "git+https://github.com/Oksana1992-hash/hexlet-js.git"
   },
   "author": "Oksana Nesterova",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Oksana1992-hash/hexlet-js/issues"
   },
-  "homepage": "https://github.com/Oksana1992-hash/hexlet-js#readme"
+  "homepage": "https://github.com/Oksana1992-hash/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
